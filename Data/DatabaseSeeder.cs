@@ -117,7 +117,7 @@ public static class DatabaseSeeder
             ProgramType = "Development",
             Budget = 3000000m,
             CreatedAt = DateTime.UtcNow
-        }
+        } 
     ];
 
     private static List<TradeLicense> CreateTradeLicenses(int traderId) =>
