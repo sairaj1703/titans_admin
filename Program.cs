@@ -67,8 +67,6 @@ app.MapControllerRoute(
     pattern: "{controller=Admin}/{action=Index}/{id?}")
     .WithStaticAssets();
 
-// Map attribute-routed API controllers
-app.MapControllers();
 
 // Run the application
 app.Run();
